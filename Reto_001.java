@@ -11,10 +11,11 @@ public class Reto_001 {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         System.out.println("Bienvenido al traductor leet/1337. Introduzca el mensaje:");
-        String texto=s.next();
-        texto= texto.replaceAll("b", "8");
+        String texto=s.nextLine().toLowerCase();
+        String leet= texto.replaceAll("a", "4").replaceAll("b", "8").replaceAll("c","[").replaceAll("d",")").replaceAll("e","€").replaceAll("f","ƒ").replaceAll("g","&").replaceAll("h", "#").replaceAll("i","!").replaceAll("j","_|").replaceAll("k","|<").replaceAll("l","£").replaceAll("m","|V|").replaceAll("n","И").replaceAll("o","Ø").replaceAll("p","|º").replaceAll("q","()_").replaceAll("r", "®").replaceAll("s","$").replaceAll("t","†").replaceAll("u","(_)").replaceAll("v","|/").replaceAll("w","VV").replaceAll("x","><").replaceAll("y","Ч").replaceAll("z","%");
+        leet=leet.replaceAll("1","L").replaceAll("2","R").replaceAll("3","E").replaceAll("4","A").replaceAll("5","S").replaceAll("6","G").replaceAll("7","T").replaceAll("8","B").replaceAll("9","g").replaceAll("0", "()");
 
-        System.out.println(texto);
+        System.out.println(leet);
 
 
     }
