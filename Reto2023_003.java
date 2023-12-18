@@ -7,5 +7,5 @@
  * - Con o sin símbolos.
  * (Pudiendo combinar todos estos parámetros entre ellos)
  */
-public class Reto_003 {
+public class Reto2023_003 {
 }
