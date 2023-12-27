@@ -12,12 +12,8 @@ package Reto2022;
  */
 
 
-import java.util.Scanner;
-public class Reto2022_020ResultadoTardio {
+public class PENDIENTE_Reto2022_020ResultadoTardio {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-
+//TODO
     }
-
 }

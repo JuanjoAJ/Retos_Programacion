@@ -11,8 +11,8 @@ package Reto2022;
  * - Una palabra es la misma aunque aparezca en mayúsculas y minúsculas.
  * - No se pueden utilizar funciones propias del lenguaje que lo resuelvan automáticamente.
  */
-import java.util.Scanner;
-public class Reto2022_007ContarPalabras {
+
+public class PENDIENTE_Reto2022_007ContarPalabras {
     public static void main(String[] args) {
 
     }

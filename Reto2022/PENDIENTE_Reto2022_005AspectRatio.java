@@ -11,7 +11,7 @@ package Reto2022;
  * - Url de ejemplo: https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_github_profile.png
  * - Por ratio hacemos referencia por ejemplo a los "16:9" de una imagen de 1920*1080px.
  */
-public class Reto2022_005AspectRatio {
+public class PENDIENTE_Reto2022_005AspectRatio {
 
     //TODO
 }

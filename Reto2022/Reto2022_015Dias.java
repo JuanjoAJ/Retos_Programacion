@@ -53,13 +53,13 @@ public class Reto2022_015Dias {
     }
 
     public static int anio(int anio) {
-        if (anio%4 == 0 && anio%100!= 0 || anio%400==0 ){
+      /*  if (anio%4 == 0 && anio%100!= 0 || anio%400==0 ){
             anio*=366;
             return anio;
-        }else {
+        }     */
             anio*=365;
             return anio;
-        }
+
     }
 
     public static int mes (int mes, int anio){
